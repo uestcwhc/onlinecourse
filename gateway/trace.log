@@ -45,3 +45,5 @@
 2021-07-28 17:10:39.293 INFO  com.course.gateway.GatewayApplication             :19   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
 2021-07-28 17:15:38.621 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-07-28 17:20:38.628 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-28 17:25:38.631 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-28 17:30:38.635 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

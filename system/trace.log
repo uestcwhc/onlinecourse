@@ -4924,8 +4924,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2021-07-24 17:36:10.945 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-07-24 17:41:10.949 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-07-28 17:04:16.371 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
-2021-07-28 17:04:16.385 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 4180 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
-2021-07-28 17:04:16.386 INFO  com.course.system.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:04:16.385 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 4180 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:04:16.386 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-07-28 17:04:16.421 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2021-07-28 17:04:16.421 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2021-07-28 17:04:17.100 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
@@ -4957,7 +4957,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5057,8 +5057,8 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.course.Test
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 83 common frames omitted
 2021-07-28 17:06:08.761 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
-2021-07-28 17:06:08.768 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 12312 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
-2021-07-28 17:06:08.769 INFO  com.course.system.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:06:08.768 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 12312 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:06:08.769 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-07-28 17:06:08.805 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2021-07-28 17:06:08.805 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2021-07-28 17:06:09.413 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
@@ -5148,7 +5148,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.course.Test
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5240,7 +5240,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5259,9 +5259,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2021-07-28 17:06:15.073 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-07-28 17:06:15.086 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-07-28 17:06:15.087 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
-2021-07-28 17:06:15.205 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 6.847 seconds (JVM running for 7.485)
-2021-07-28 17:06:15.208 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-07-28 17:06:15.208 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-07-28 17:06:15.205 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 6.847 seconds (JVM running for 7.485)
+2021-07-28 17:06:15.208 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:06:15.208 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-07-28 17:06:19.198 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/SYSTEM": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/SYSTEM": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
@@ -5355,8 +5355,8 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-07-28 17:06:45.080 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
 2021-07-28 17:06:45.080 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
 2021-07-28 17:06:48.690 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
-2021-07-28 17:06:48.693 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 2452 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
-2021-07-28 17:06:48.694 INFO  com.course.system.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:06:48.693 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 2452 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:06:48.694 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-07-28 17:06:48.723 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2021-07-28 17:06:48.723 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2021-07-28 17:06:49.230 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
@@ -5446,7 +5446,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5538,7 +5538,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5557,9 +5557,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2021-07-28 17:06:54.709 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-07-28 17:06:54.722 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-07-28 17:06:54.723 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
-2021-07-28 17:06:54.840 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 6.541 seconds (JVM running for 7.225)
-2021-07-28 17:06:54.843 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-07-28 17:06:54.843 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-07-28 17:06:54.840 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 6.541 seconds (JVM running for 7.225)
+2021-07-28 17:06:54.843 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:06:54.843 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-07-28 17:06:58.815 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/SYSTEM": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/SYSTEM": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
@@ -6328,8 +6328,8 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-07-28 17:09:07.015 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
 2021-07-28 17:09:07.015 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
 2021-07-28 17:09:11.158 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
-2021-07-28 17:09:11.165 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 6896 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
-2021-07-28 17:09:11.166 INFO  com.course.system.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:09:11.165 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 6896 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:09:11.166 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-07-28 17:09:11.197 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2021-07-28 17:09:11.197 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2021-07-28 17:09:11.709 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
@@ -6419,7 +6419,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6511,7 +6511,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6530,9 +6530,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2021-07-28 17:09:17.202 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-07-28 17:09:17.215 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-07-28 17:09:17.216 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
-2021-07-28 17:09:17.332 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 6.589 seconds (JVM running for 7.273)
-2021-07-28 17:09:17.334 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-07-28 17:09:17.334 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-07-28 17:09:17.332 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 6.589 seconds (JVM running for 7.273)
+2021-07-28 17:09:17.334 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:09:17.334 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-07-28 17:09:21.308 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/SYSTEM": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/SYSTEM": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
@@ -7006,8 +7006,8 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2021-07-28 17:10:48.155 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
-2021-07-28 17:10:48.158 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 18352 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
-2021-07-28 17:10:48.159 INFO  com.course.system.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:10:48.158 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 18352 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:10:48.159 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-07-28 17:10:48.188 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2021-07-28 17:10:48.189 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2021-07-28 17:10:48.706 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
@@ -7041,9 +7041,9 @@ java.net.ConnectException: Connection refused: connect
 2021-07-28 17:10:50.147 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-07-28 17:10:50.148 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
 2021-07-28 17:10:50.160 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - registration status: 204
-2021-07-28 17:10:50.277 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.534 seconds (JVM running for 3.204)
-2021-07-28 17:10:50.280 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-07-28 17:10:50.280 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-07-28 17:10:50.277 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.534 seconds (JVM running for 3.204)
+2021-07-28 17:10:50.280 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:10:50.280 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-07-28 17:10:53.771 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-07-28 17:10:53.771 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-07-28 17:10:53.772 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
@@ -7509,8 +7509,8 @@ java.net.ConnectException: Connection refused: connect
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2021-07-28 17:15:49.926 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-07-28 17:19:55.438 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
-2021-07-28 17:19:55.442 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 17360 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
-2021-07-28 17:19:55.443 INFO  com.course.system.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:19:55.442 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 17360 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:19:55.443 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-07-28 17:19:55.472 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2021-07-28 17:19:55.472 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2021-07-28 17:19:56.003 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
@@ -7544,12 +7544,177 @@ java.net.ConnectException: Connection refused: connect
 2021-07-28 17:19:57.444 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-07-28 17:19:57.445 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
 2021-07-28 17:19:57.456 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - registration status: 204
-2021-07-28 17:19:57.568 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.531 seconds (JVM running for 3.194)
-2021-07-28 17:19:57.571 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-07-28 17:19:57.571 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-07-28 17:19:57.568 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.531 seconds (JVM running for 3.194)
+2021-07-28 17:19:57.571 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:19:57.571 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-07-28 17:20:16.027 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-07-28 17:20:16.027 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-07-28 17:20:16.028 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
 2021-07-28 17:20:16.049 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-1 - Starting...
 2021-07-28 17:20:16.051 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32m        [0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
 2021-07-28 17:20:16.215 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-1 - Start completed.
+2021-07-28 17:24:57.221 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-28 17:28:53.240 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2021-07-28 17:28:53.243 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 5368 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:28:53.244 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:28:53.276 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-28 17:28:53.277 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-28 17:28:53.813 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
+2021-07-28 17:28:54.192 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-07-28 17:28:54.198 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-07-28 17:28:54.198 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-07-28 17:28:54.198 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-28 17:28:54.264 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-28 17:28:54.264 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 987 ms
+2021-07-28 17:28:54.637 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-07-28 17:28:54.782 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-07-28 17:28:54.958 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-07-28 17:28:55.013 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-07-28 17:28:55.033 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-07-28 17:28:55.035 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-28 17:28:55.049 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-07-28 17:28:55.049 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-07-28 17:28:55.049 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-07-28 17:28:55.050 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-07-28 17:28:55.050 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-07-28 17:28:55.050 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-07-28 17:28:55.050 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-07-28 17:28:55.250 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-07-28 17:28:55.252 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-07-28 17:28:55.253 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-28 17:28:55.257 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1627464535256 with initial instances count: 2
+2021-07-28 17:28:55.259 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-07-28 17:28:55.259 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1627464535259, current=UP, previous=STARTING]
+2021-07-28 17:28:55.261 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001: registering service...
+2021-07-28 17:28:55.263 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-07-28 17:28:55.276 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-07-28 17:28:55.276 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2021-07-28 17:28:55.286 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - registration status: 204
+2021-07-28 17:28:55.391 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.587 seconds (JVM running for 3.245)
+2021-07-28 17:28:55.393 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:28:55.394 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-07-28 17:29:03.636 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28 17:29:03.636 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-07-28 17:29:03.637 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2021-07-28 17:29:03.656 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-1 - Starting...
+2021-07-28 17:29:03.658 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32m        [0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-28 17:29:03.789 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-1 - Start completed.
+2021-07-28 17:29:03.792 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m ==>  Preparing: select `id`, `name` from `test` 
+2021-07-28 17:29:03.805 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m ==> Parameters: 
+2021-07-28 17:29:03.832 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==    Columns: id, name
+2021-07-28 17:29:03.832 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 1, 测试
+2021-07-28 17:29:03.835 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 2, 测试2
+2021-07-28 17:29:03.835 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 3, 测试3
+2021-07-28 17:29:03.835 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m <==      Total: 3
+2021-07-28 17:29:05.401 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m ==>  Preparing: select `id`, `name` from `test` 
+2021-07-28 17:29:05.402 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m ==> Parameters: 
+2021-07-28 17:29:05.402 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==    Columns: id, name
+2021-07-28 17:29:05.402 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 1, 测试
+2021-07-28 17:29:05.403 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 2, 测试2
+2021-07-28 17:29:05.403 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 3, 测试3
+2021-07-28 17:29:05.403 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m <==      Total: 3
+2021-07-28 17:30:19.096 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-07-28 17:30:19.096 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1627464619096, current=DOWN, previous=UP]
+2021-07-28 17:30:19.096 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001: registering service...
+2021-07-28 17:30:19.109 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - registration status: 204
+2021-07-28 17:30:19.238 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-07-28 17:30:19.245 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-07-28 17:30:19.245 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-07-28 17:30:22.261 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-07-28 17:30:22.278 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - deregister  status: 200
+2021-07-28 17:30:22.282 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-07-28 17:30:22.457 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 5368 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:30:22.457 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:30:22.634 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
+2021-07-28 17:30:22.675 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-07-28 17:30:22.676 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-07-28 17:30:22.676 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-07-28 17:30:22.676 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-28 17:30:22.692 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-28 17:30:22.692 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 233 ms
+2021-07-28 17:30:22.782 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-07-28 17:30:22.904 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-07-28 17:30:23.031 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-07-28 17:30:23.045 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-07-28 17:30:23.046 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-07-28 17:30:23.047 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-28 17:30:23.051 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-07-28 17:30:23.051 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-07-28 17:30:23.051 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-07-28 17:30:23.052 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-07-28 17:30:23.052 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-07-28 17:30:23.052 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-07-28 17:30:23.052 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-07-28 17:30:23.064 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-07-28 17:30:23.065 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-07-28 17:30:23.066 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-28 17:30:23.067 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1627464623067 with initial instances count: 2
+2021-07-28 17:30:23.067 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-07-28 17:30:23.067 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1627464623067, current=UP, previous=STARTING]
+2021-07-28 17:30:23.068 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001: registering service...
+2021-07-28 17:30:23.069 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-07-28 17:30:23.070 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-07-28 17:30:23.071 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2021-07-28 17:30:23.076 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - registration status: 204
+2021-07-28 17:30:23.190 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 0.869 seconds (JVM running for 91.043)
+2021-07-28 17:30:23.191 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-07-28 17:30:23.191 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:30:23.192 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址test: 	http://127.0.0.1:9001
+2021-07-28 17:30:37.785 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-07-28 17:30:37.785 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1627464637785, current=DOWN, previous=UP]
+2021-07-28 17:30:37.785 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001: registering service...
+2021-07-28 17:30:37.800 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - registration status: 204
+2021-07-28 17:30:37.882 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-07-28 17:30:40.898 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-07-28 17:30:40.915 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - deregister  status: 200
+2021-07-28 17:30:40.919 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-07-28 17:30:41.081 INFO  com.course.system.config.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 5368 (D:\javaprojects\onlinecourse\course\system\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-07-28 17:30:41.081 INFO  com.course.system.config.SystemApplication               :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-07-28 17:30:41.235 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=db8c2e20-f755-38f0-b998-d1c2ad3062ad
+2021-07-28 17:30:41.274 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-07-28 17:30:41.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-07-28 17:30:41.275 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-07-28 17:30:41.275 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-28 17:30:41.289 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-28 17:30:41.289 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 206 ms
+2021-07-28 17:30:41.367 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-07-28 17:30:41.487 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-07-28 17:30:41.614 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-07-28 17:30:41.623 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-07-28 17:30:41.625 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-07-28 17:30:41.625 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-28 17:30:41.626 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-07-28 17:30:41.626 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-07-28 17:30:41.626 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-07-28 17:30:41.626 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-07-28 17:30:41.626 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-07-28 17:30:41.626 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-07-28 17:30:41.626 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-07-28 17:30:41.638 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-07-28 17:30:41.638 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-07-28 17:30:41.639 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-28 17:30:41.639 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1627464641639 with initial instances count: 2
+2021-07-28 17:30:41.640 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-07-28 17:30:41.640 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1627464641640, current=UP, previous=STARTING]
+2021-07-28 17:30:41.641 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001: registering service...
+2021-07-28 17:30:41.642 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-07-28 17:30:41.643 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-07-28 17:30:41.644 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2021-07-28 17:30:41.648 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-L9OD124:system:9001 - registration status: 204
+2021-07-28 17:30:41.754 INFO  com.course.system.config.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 0.804 seconds (JVM running for 109.607)
+2021-07-28 17:30:41.755 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-07-28 17:30:41.756 INFO  com.course.system.config.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-07-28 17:30:41.756 INFO  com.course.system.config.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-07-28 17:30:53.529 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28 17:30:53.529 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-07-28 17:30:53.529 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 0 ms
+2021-07-28 17:30:53.530 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-2 - Starting...
+2021-07-28 17:30:53.530 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32m        [0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-28 17:30:53.541 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-2 - Start completed.
+2021-07-28 17:30:53.542 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m ==>  Preparing: select `id`, `name` from `test` 
+2021-07-28 17:30:53.542 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m ==> Parameters: 
+2021-07-28 17:30:53.542 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==    Columns: id, name
+2021-07-28 17:30:53.542 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 1, 测试
+2021-07-28 17:30:53.543 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 2, 测试2
+2021-07-28 17:30:53.543 TRACE com.course.server.mapper.TestMapper.list          :165  [32m        [0;39m <==        Row: 3, 测试3
+2021-07-28 17:30:53.543 DEBUG com.course.server.mapper.TestMapper.list          :159  [32m        [0;39m <==      Total: 3
