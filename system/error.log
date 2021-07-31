@@ -88,3 +88,18 @@ Caused by: java.lang.ClassNotFoundException: com.course.server.service.TestServi
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
 	... 28 common frames omitted
+2021-07-31 17:07:54.844 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m        [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.course.server.service.TestService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.course.server.service.TestService' in your configuration.
+
