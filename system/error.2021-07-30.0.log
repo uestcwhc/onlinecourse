@@ -1,5 +1,5 @@
-2021-07-31 16:59:32.991 ERROR org.springframework.boot.SpringApplication        :843  [32m        [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController' defined in file [D:\javaprojects\onlinecourse\course\system\target\classes\com\course\system\controller\TestController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26ff174e]
+2021-07-30 09:19:21.175 ERROR org.springframework.boot.SpringApplication        :843  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController' defined in file [D:\javaprojects\onlinecourse\course\system\target\classes\com\course\system\controller\TestController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1b371ff9]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
@@ -19,7 +19,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26ff174e]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1b371ff9]
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739)
 	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
@@ -43,8 +43,8 @@ Caused by: java.lang.ClassNotFoundException: com.course.server.service.TestServi
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
 	... 28 common frames omitted
-2021-07-31 17:00:11.753 ERROR org.springframework.boot.SpringApplication        :843  [32m        [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController' defined in file [D:\javaprojects\onlinecourse\course\system\target\classes\com\course\system\controller\TestController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@31c2504b]
+2021-07-30 09:19:35.187 ERROR org.springframework.boot.SpringApplication        :843  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController' defined in file [D:\javaprojects\onlinecourse\course\system\target\classes\com\course\system\controller\TestController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@59cb6cd7]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
@@ -64,7 +64,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@31c2504b]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.course.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@59cb6cd7]
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739)
 	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
