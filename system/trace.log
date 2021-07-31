@@ -369,3 +369,7 @@ Consider defining a bean of type 'com.course.server.service.TestService' in your
 2021-07-31 17:14:03.485 TRACE c.course.server.mapper.TestMapper.selectByExample :165  [32m        [0;39m <==    Columns: id, name
 2021-07-31 17:14:03.486 TRACE c.course.server.mapper.TestMapper.selectByExample :165  [32m        [0;39m <==        Row: 1, 测试
 2021-07-31 17:14:03.486 DEBUG c.course.server.mapper.TestMapper.selectByExample :159  [32m        [0;39m <==      Total: 1
+2021-07-31 17:19:00.636 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-31 17:24:00.644 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-31 17:29:00.658 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-07-31 17:34:00.672 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
