@@ -774,3 +774,49 @@ Stack trace:
 2021-09-10 16:18:33.585 INFO  com.course.gateway.GatewayApplication             :61   [32m        [0;39m Started GatewayApplication in 2.563 seconds (JVM running for 3.135)
 2021-09-10 16:18:33.587 INFO  com.course.gateway.GatewayApplication             :23   [32m        [0;39m 启动成功！！
 2021-09-10 16:18:33.587 INFO  com.course.gateway.GatewayApplication             :24   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
+2021-09-10 16:23:32.900 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:24:48.397 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2021-09-10 16:24:48.399 INFO  com.course.gateway.GatewayApplication             :55   [32m        [0;39m Starting GatewayApplication using Java 11.0.7 on DESKTOP-L9OD124 with PID 17904 (D:\javaprojects\onlinecourse\course\gateway\target\classes started by 79491 in D:\javaprojects\onlinecourse\course)
+2021-09-10 16:24:48.400 INFO  com.course.gateway.GatewayApplication             :659  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-09-10 16:24:48.857 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=c9a1c9c6-4d79-3215-bffc-05167bf21347
+2021-09-10 16:24:48.895 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 16:24:48.896 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 16:24:48.898 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376  [32m        [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 16:24:49.353 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [After]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [ReadBody]
+2021-09-10 16:24:49.354 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-10 16:24:49.355 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2021-09-10 16:24:49.355 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-10 16:24:49.460 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-09-10 16:24:49.720 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-10 16:24:49.759 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-09-10 16:24:49.778 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-09-10 16:24:49.781 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:24:49.793 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-09-10 16:24:49.793 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-09-10 16:24:49.793 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-09-10 16:24:49.793 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-09-10 16:24:49.793 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-09-10 16:24:49.793 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-09-10 16:24:49.793 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-09-10 16:24:50.019 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-09-10 16:24:50.022 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-09-10 16:24:50.024 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-10 16:24:50.027 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1631262290026 with initial instances count: 3
+2021-09-10 16:24:50.028 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application GATEWAY with eureka with status UP
+2021-09-10 16:24:50.028 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1631262290028, current=UP, previous=STARTING]
+2021-09-10 16:24:50.029 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/DESKTOP-L9OD124:gateway:9000: registering service...
+2021-09-10 16:24:50.055 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/DESKTOP-L9OD124:gateway:9000 - registration status: 204
+2021-09-10 16:24:50.252 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m        [0;39m Netty started on port 9000
+2021-09-10 16:24:50.252 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9000
+2021-09-10 16:24:50.479 INFO  com.course.gateway.GatewayApplication             :61   [32m        [0;39m Started GatewayApplication in 2.443 seconds (JVM running for 3.017)
+2021-09-10 16:24:50.481 INFO  com.course.gateway.GatewayApplication             :23   [32m        [0;39m 启动成功！！
+2021-09-10 16:24:50.482 INFO  com.course.gateway.GatewayApplication             :24   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
