@@ -175,3 +175,10 @@
 2021-09-10 15:32:14.864 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
 2021-09-10 15:32:14.864 INFO  com.course.system.config.SystemApplication        :23   [32m        [0;39m 启动成功！！
 2021-09-10 15:32:14.864 INFO  com.course.system.config.SystemApplication        :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-09-10 15:37:14.748 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 15:42:14.751 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 15:47:14.752 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 15:52:14.756 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 15:57:14.757 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:02:14.763 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:07:14.776 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
