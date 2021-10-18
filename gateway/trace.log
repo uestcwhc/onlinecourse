@@ -820,3 +820,14 @@ Stack trace:
 2021-09-10 16:24:50.479 INFO  com.course.gateway.GatewayApplication             :61   [32m        [0;39m Started GatewayApplication in 2.443 seconds (JVM running for 3.017)
 2021-09-10 16:24:50.481 INFO  com.course.gateway.GatewayApplication             :23   [32m        [0;39m 启动成功！！
 2021-09-10 16:24:50.482 INFO  com.course.gateway.GatewayApplication             :24   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
+2021-09-10 16:29:49.797 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:34:49.804 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:39:49.819 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:44:49.829 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:49:49.831 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:54:49.836 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:59:49.847 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:04:49.857 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:09:49.862 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:14:49.876 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:19:49.880 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

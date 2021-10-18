@@ -4218,3 +4218,15 @@ Caused by: java.lang.IllegalArgumentException: When allowCredentials is true, al
 2021-09-10 16:18:36.534 TRACE c.c.server.mapper.ChapterMapper.selectByExample   :165  [32m        [0;39m <==        Row: 00000000, 00000000, 测试大章一
 2021-09-10 16:18:36.535 TRACE c.c.server.mapper.ChapterMapper.selectByExample   :165  [32m        [0;39m <==        Row: 00000001, 00000000, 测试大章二
 2021-09-10 16:18:36.535 DEBUG c.c.server.mapper.ChapterMapper.selectByExample   :159  [32m        [0;39m <==      Total: 2
+2021-09-10 16:23:29.591 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:28:29.608 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:33:29.610 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:38:29.622 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:43:29.631 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:48:29.642 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:53:29.654 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 16:58:29.661 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:03:29.663 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:08:29.667 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:13:29.678 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-09-10 17:18:29.694 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
